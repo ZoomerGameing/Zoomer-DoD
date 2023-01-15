@@ -2,5 +2,5 @@ owner = PLC
 controller = PLC
 add_core = PLC
 add_core = POL
-trade_goods = sulphur
+trade_goods = cattle
 life_rating = 35
