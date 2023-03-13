@@ -33,7 +33,7 @@ political_decisions = {
 			add_accepted_culture = north_german
 			add_accepted_culture = south_german
 			add_accepted_culture = rheinish 
-			add_accepted_culture = pomeranian
+			add_accepted_culture = baltic_german
 			any_country = {
 				limit = {
 					is_culture_group = germanic
@@ -145,7 +145,7 @@ political_decisions = {
 		add_accepted_culture = czech 
 		add_accepted_culture = north_german 
 		add_accepted_culture = south_german 
-		add_accepted_culture = pomeranian
+		add_accepted_culture = baltic_german
 		capital = 564
 		prestige = 50 
 		564 = {
@@ -179,7 +179,7 @@ political_decisions = {
 			add_accepted_culture = rheinish
 			add_accepted_culture = north_german
 			add_accepted_culture = south_german
-			add_accepted_culture = pomeranian
+			add_accepted_culture = baltic_german
 			add_accepted_culture = swiss
 			capital = 549
 			prestige = 50
@@ -330,7 +330,7 @@ form_elbian_confederation = {
 				limit = {
 					OR = {
 						primary_culture = north_german
-						primary_culture = pomeranian
+						primary_culture = baltic_german
 					}
 					NOT = { tag = KRL }
 					NOT = { tag = PRU }
@@ -346,7 +346,7 @@ form_elbian_confederation = {
 			}
 		change_tag = CAE
 		add_accepted_culture = north_german
-		add_accepted_culture = pomeranian
+		add_accepted_culture = baltic_german
 		381 = { remove_core = CAE }
 		}
 	}

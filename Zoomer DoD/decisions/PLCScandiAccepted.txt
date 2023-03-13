@@ -89,14 +89,13 @@ baltic_cultures = {
 		}
 
 		allow = {
-			citizens_rights = all_voting_pops
 			nationalism_n_imperialism = 1
 		}
 
 		effect = {
 			prestige = 20
 			set_country_flag = north_integration
-			add_accepted_culture = pomeranian
+			add_accepted_culture = baltic_german
 			any_pop = {
 				limit = {
 					culture = scandinavian
@@ -110,7 +109,7 @@ baltic_cultures = {
 			}
 			any_pop = {
 				limit = {
-					culture = pomeranian
+					culture = baltic_german
 				}
 				consciousness = -1
 				militancy = -3
@@ -219,7 +218,7 @@ baltic_cultures = {
 
 	meddle_with_cossacks = { 
 	
-		potential = { 
+		potential = {
 		OR = { tag = RUS }
 		is_greater_power = yes 
 		UKR = { substate_of = PLC }

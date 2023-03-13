@@ -95,13 +95,6 @@ country_event = {
 		AND = {
 			has_country_flag = dual_integration
 			year = 1865
-			OR = {
-				NOT = { owns = 428 }
-				NOT = { owns = 399 }
-				NOT = { owns = 272 }
-				NOT = { owns = 267 }
-			}
-			
 		}
 		AND = {
 			owns = 428 
