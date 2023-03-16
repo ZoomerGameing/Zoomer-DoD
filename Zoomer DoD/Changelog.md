@@ -46,4 +46,4 @@ Update 1.1.1
 
 - Danubia can no longer accept Elbian.
 
-- removed citizenship_policy, citizens_rights, and government = as requirements for many decisions.
+- removed citizenship_policy, citizens_rights, government = and religious_policy as requirements for many decisions.
