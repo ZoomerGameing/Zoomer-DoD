@@ -4,19 +4,13 @@ baltic_cultures = {
 		potential = {
 			tag = PLC
 			has_country_flag = lublin_new
-			owns = 354
 			NOT = { has_country_flag = my_latvian_brother }
 		}
 	
 		allow = {
 			war = no
-			OR = {
-				citizens_rights = culture_voting_only
-				citizens_rights = all_voting_pops
-			}
 			nationalism_n_imperialism = 1
 			owns = 354
-			owns = 349
 		}
 	
 		effect = {
@@ -38,8 +32,6 @@ baltic_cultures = {
 	        NOT = { has_country_flag = treaty_hadiach }
 		}
 		allow = {
-            citizens_rights = all_voting_pops
-			NOT = { religious_policy = moralism }
 			revolution_n_counterrevolution = 1 
 			owns = 958 
 			owns = 718 

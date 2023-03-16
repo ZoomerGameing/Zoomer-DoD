@@ -37,3 +37,13 @@ Update 1.1
 - fixed Naval exploit to prevent over building navies
 
 - copied Alstadts unit stats
+
+Update 1.1.1
+
+- Ottomans need ideological thought to start the tanzimat reforms and nat & imp to finish them, Ottomans also received Bosniak.
+
+- Hungary can now accept and core Serbian.
+
+- Danubia can no longer accept Elbian.
+
+- removed citizenship_policy, citizens_rights, and government = as requirements for many decisions.
