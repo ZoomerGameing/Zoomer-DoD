@@ -413,7 +413,6 @@ form_elbian_confederation = {
 	}
 	
 	allow = { 
-	NOT = { citizenship_policy = residency }
 	NOT = { accepted_culture = rheinish }
 	any_owned_province = { is_core = RHI }
 	}
@@ -433,7 +432,6 @@ form_elbian_confederation = {
 	}
 	
 	allow = { 
-	NOT = { citizenship_policy = residency }
 	any_owned_province = { is_core = RHI }
 	}
 	
@@ -443,46 +441,5 @@ form_elbian_confederation = {
 	   }
 	
     }
-	
-	
-	integrate_elbe = { 
-	picture = MarzBerlin
-	potential = { 
-	OR = { tag = SGF tag = RHI }
-	NOT = { accepted_culture = north_german }
-	OR = { any_owned_province = { is_core = BRN } any_owned_province = { is_core = HAN } }
-	NOT = { has_country_flag = elbe_acc }
-	}
-	
-	allow = { 
-	NOT = { citizenship_policy = residency }
-	}
-	
-	effect = { 
-	set_country_flag = elbe_acc
-	add_accepted_culture = north_german 
-	}
-	
-	}
-	
-	integrate_south = { 
-	picture = MarzBerlin
-	potential = { 
-	OR = { tag = NGF tag = RHI }
-	NOT = { accepted_culture = south_german }
-	OR = { any_owned_province = { is_core = BAV } any_owned_province = { is_core = SWI } any_owned_province = { is_core = AUS } }
-	NOT = { has_country_flag = south_acc }
-	}
-	
-	allow = { 
-	NOT = { citizenship_policy = residency }
-	}
-	
-	effect = { 
-	set_country_flag = south_acc
-	add_accepted_culture = north_german 
-	}
-	
-	}
 }
 	
