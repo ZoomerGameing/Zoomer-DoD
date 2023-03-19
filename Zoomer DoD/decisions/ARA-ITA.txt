@@ -20,7 +20,9 @@ political_decisions = {
 							owner = {
 								in_sphere = THIS
 							}
-							vassal_of = THIS						
+							owner = { 
+								vassal_of = THIS
+							}
 						}
 						NOT = {
 							OR = {
