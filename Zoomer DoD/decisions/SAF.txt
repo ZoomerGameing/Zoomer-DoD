@@ -66,7 +66,10 @@ political_decisions = {
 			}	
 	ENG_2087 = { add_core = BTV }
 	change_tag = BTV 
-	set_country_flag = batavia_immigration
+	add_country_modifier = {
+		name = batavia_immigration
+		duration = -1
+	}
 	set_country_flag = new_world_nation
 	prestige = 10 
 	}
