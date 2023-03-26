@@ -1446,7 +1446,7 @@ the_statue_of_liberty = {
 	icon = 15
 }
 
-BTV_immigration = {
+batavia_immigration = {
 	global_immigrant_attract = 4
 	global_assimilation_rate = 0.75
 	icon = 15
