@@ -75,13 +75,16 @@ baltic_cultures = {
 
 		potential = {
 			tag = SCA
-            owns = 544
-			owns = 369
 			NOT = { has_country_flag = north_integration }
 		}
 
 		allow = {
 			nationalism_n_imperialism = 1
+			owns = 354
+			OR = {
+				owns = 369
+				owns = 695
+			}
 		}
 
 		effect = {

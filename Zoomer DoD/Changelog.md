@@ -8,6 +8,8 @@ Update 1.0
 
 - HRE CB now gives Holstein to Pomerania.
 
+- HRE can move capital to Berlin if Frankfurt is lost
+
 - fixed Sea Adjacenies to give -2 on naval landings.
 
 - fixed 3k rebel stacks spawning from army units.
@@ -47,3 +49,17 @@ Update 1.1.1
 - Danubia can no longer accept Elbian.
 
 - removed citizenship_policy, citizens_rights, government = and religious_policy as requirements for many decisions.
+
+Update 1.2
+
+- Fixed Tea so Japan doesn't have billions of immigration
+
+- Added Host Decisions
+
+- Fixed A-I not being able to form using puppets
+
+- Fixed Scandi's cores and changed decision requirements
+
+- readded Batvian immigration modifer that was unused
+
+-

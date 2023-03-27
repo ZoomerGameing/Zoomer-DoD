@@ -50,8 +50,8 @@ political_decisions = {
 	
 	reclaimPOM = {
 	
-		potential = { 
-			tag = SCA 
+		potential = {
+			tag = SCA
 			NOT = {
 				544 = { is_core  = THIS }
 				has_country_flag = lol_rekt
@@ -59,14 +59,14 @@ political_decisions = {
 		}
 		
 		allow = { 
-			war_policy = jingoism
+			state_n_government = 1
 		}
 		
 		effect = {
 			set_country_flag = lol_rekt
-			PRU_690 = { add_core = SCA }
+			HOL_369 = { add_core = SCA }
 			PRU_546 = { add_core = SCA }
-			badboy = 10
+			badboy = 10	
 		}
 
 		ai_will_do = {
