@@ -133,6 +133,7 @@ political_decisions = {
 			any_pop = {
 				limit = {
 					OR = {
+					has_pop_culture = baltic_german
 					has_pop_culture = north_german
 					has_pop_culture = russian
 					}
