@@ -52,8 +52,6 @@ Update 1.1.1
 
 Update 1.2
 
-- Fixed Tea so Japan doesn't have billions of immigration
-
 - Added Host Decisions
 
 - Fixed A-I not being able to form using puppets
@@ -61,5 +59,3 @@ Update 1.2
 - Fixed Scandi's cores and changed decision requirements
 
 - readded Batvian immigration modifer that was unused
-
--
