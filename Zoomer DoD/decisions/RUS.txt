@@ -219,14 +219,34 @@ political_decisions = {
 		effect = {
 			prestige = 5
 			add_accepted_culture = tatar
-			add_accepted_culture = crimean
 			add_accepted_culture = astrakhani
 			set_country_flag = tatar_culture 
 		}
 		ai_will_do = {
 			factor = 1
 		}
-	}	
+	}
+	
+	integrate_crimean_culture = {
+		potential = {
+			tag = RUS
+			has_country_flag = southern_focus
+			NOT = { accepted_culture = crimean }
+			NOT = { has_country_flag = crimean_culture }
+		}
+		allow = {
+			phenomenology_n_hermeneutic = 1
+		}
+		effect = {
+			prestige = 5
+			add_accepted_culture = crimean
+			set_country_flag = crimean_culture
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
 	integrate_georgian_culture = {
 		potential = {
 			tag = RUS
