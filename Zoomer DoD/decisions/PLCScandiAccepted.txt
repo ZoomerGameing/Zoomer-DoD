@@ -24,7 +24,7 @@ political_decisions = {
 		}
 	}
 	
-	integrate_prussia = {
+	prussian_integration = {
 		potential = {
 			tag = PLC
 			has_country_flag = lublin_new
