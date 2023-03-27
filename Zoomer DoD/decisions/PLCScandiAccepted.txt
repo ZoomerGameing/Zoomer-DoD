@@ -1,6 +1,6 @@
 political_decisions = {
 
-baltic_cultures = {
+	baltic_cultures = {
 		potential = {
 			tag = PLC
 			has_country_flag = lublin_new
@@ -17,6 +17,33 @@ baltic_cultures = {
 			set_country_flag = my_latvian_brother
 			prestige = 10
 			add_accepted_culture = latvian 
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	integrate_prussia = {
+		potential = {
+			tag = PLC
+			has_country_flag = lublin_new
+			NOT = { has_country_flag = prussian_integration }
+		}
+	
+		allow = {
+			war = no
+			revolution_n_counterrevolution = 1
+			OR = {
+				owns = 695
+				owns = 690
+			}
+		}
+	
+		effect = {
+			set_country_flag = prussian_integration
+			prestige = 10
+			add_accepted_culture = baltic_german 
 		}
 
 		ai_will_do = {
