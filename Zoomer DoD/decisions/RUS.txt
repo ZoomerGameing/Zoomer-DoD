@@ -219,7 +219,6 @@ political_decisions = {
 		effect = {
 			prestige = 5
 			add_accepted_culture = tatar
-			add_accepted_culture = astrakhani
 			set_country_flag = tatar_culture 
 		}
 		ai_will_do = {
@@ -241,26 +240,6 @@ political_decisions = {
 			prestige = 5
 			add_accepted_culture = crimean
 			set_country_flag = crimean_culture
-		}
-		ai_will_do = {
-			factor = 1
-		}
-	}
-	
-	integrate_georgian_culture = {
-		potential = {
-			tag = RUS
-			has_country_flag = southern_focus
-			NOT = { accepted_culture = georgian }
-			NOT = { has_country_flag = georgian_culture }
-		}
-		allow = {
-			revolution_n_counterrevolution = 1
-		}
-		effect = {
-			prestige = 5
-			add_accepted_culture = georgian
-			set_country_flag = georgian_culture
 		}
 		ai_will_do = {
 			factor = 1
@@ -302,6 +281,7 @@ political_decisions = {
 			has_country_flag = sea_to_sea_focus
 			NOT = { accepted_culture = kazak }
 			NOT = { accepted_culture = mongol }
+			NOT = { accepted_culture = siberian }
 		}
 		
 		allow = {
@@ -313,6 +293,7 @@ political_decisions = {
 			prestige = 10
 			add_accepted_culture = kazak
 			add_accepted_culture = mongol
+			add_accepted_culture = siberian
 		}
 	}
 }
