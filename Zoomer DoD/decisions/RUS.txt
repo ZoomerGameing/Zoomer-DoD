@@ -100,7 +100,7 @@ political_decisions = {
 				tag = RUS
 				NOT = { 
 						OR = {
-							has_country_flag = baltic_focus
+							has_country_flag = sea_to_sea_focus
 							has_country_flag = panslavic_focus
 							has_country_flag = southern_focus
 					}
@@ -123,7 +123,7 @@ political_decisions = {
 	move_capital_to_nyenschantz = {
 		potential = {
 			tag = RUS
-			has_country_flag = baltic_focus
+			has_country_flag = sea_to_sea_focus
 			NOT = { has_country_flag = RUS_moved_capital }
 		}
 
@@ -266,95 +266,53 @@ political_decisions = {
 			factor = 1
 		}
 	}
-	#Baltic cultures
-	integrate_estonian_culture = {
+	#sea to sea cultures
+	integrate_baltic_cultures = {
 		potential = {
 			tag = RUS
-			has_country_flag = baltic_focus
-			has_country_flag = RUS_moved_capital
-			NOT = { accepted_culture = estonian}
-			NOT = { has_country_flag = estonian_culture }
+			has_country_flag = sea_to_sea_focus
+			NOT = { accepted_culture = estonian }
+			NOT = { accepted_culture = latvian }
+			NOT = { accepted_culture = finnish }
+			NOT = { has_country_flag = baltic_cultures }
 		}
 		allow = {
 			nationalism_n_imperialism = 1 
+			OR = {
+			owns = 343
+			owns = 349
+			owns = 354
+			}
 		}
 		effect = {
 			prestige = 5
 			add_accepted_culture = estonian
-			set_country_flag = estonian_culture
-		}
-		ai_will_do = {
-			factor = 1
-		}
-	}	
-	integrate_latvian_culture = {
-		potential = {
-			tag = RUS
-			has_country_flag = baltic_focus
-			has_country_flag = RUS_moved_capital
-			NOT = { has_country_flag = latvian_culture }
-		}
-		allow = {
-			nationalism_n_imperialism = 1 
-		}
-		effect = {
-			prestige = 5
 			add_accepted_culture = latvian
-			set_country_flag = latvian_culture
-		}
-		ai_will_do = {
-			factor = 1
-		}
-	}	
-	integrate_finnish_culture = {
-		potential = {
-			tag = RUS
-			has_country_flag = baltic_focus
-			has_country_flag = RUS_moved_capital
-			NOT = { has_country_flag = finnish_culture }
-		}
-		allow = {
-			revolution_n_counterrevolution = 1 
-			biologism = 1 
-		}
-		effect = {
 			add_accepted_culture = finnish
-			set_country_flag = finnish_culture
+			set_country_flag = baltic_cultures
 		}
 		ai_will_do = {
 			factor = 1
 		}
-	}	
-
-	moscow_expansion_steppes = { 
-	picture = RUS_tsar
-	potential = { 
-	tag = MUS
-	NOT = { has_country_flag = steppes_conquest }
-	NOT = { TAR = { exists = yes }}
 	}
 	
-	allow = {
-	OR = { 
-		AND = { 
-		rank = 16 
-		NOT = { SCA = { is_greater_power = yes } }
-			}
-		AND = { 
-		rank = 16 
-		year = 1845 
-				}
-		is_greater_power = yes 
-			}
+	integrate_eastern_cultures = {
+		potential = {
+			tag = RUS
+			has_country_flag = sea_to_sea_focus
+			NOT = { accepted_culture = kazak }
+			NOT = { accepted_culture = mongol }
 		}
-	
-	effect = { 
-	set_country_flag = steppes_conquest
-	prestige = 15 
-	RUS_1034 = { add_core = THIS }
-	RUS_979 = { add_core = THIS }
-	RUS_980 = { add_core = THIS }
+		
+		allow = {
+			nationalism_n_imperialism = 1
+			owns = 1600
 		}
-	
+		
+		effect = {
+			prestige = 10
+			add_accepted_culture = kazak
+			add_accepted_culture = mongol
+		}
 	}
 }

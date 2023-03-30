@@ -59,3 +59,5 @@ Update 1.2
 - Fixed Scandi's cores and changed decision requirements
 
 - readded Batvian immigration modifer that was unused
+
+- Russia northern and eastern path were merged, Russia can no longer get cores on siberia if western or southern path is taken, northern path no longer gets memel core
