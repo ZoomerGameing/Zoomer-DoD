@@ -312,4 +312,84 @@ political_decisions = {
 			NA_17 = { add_core = RUS }
 		}
 	}
+    russian_vladivostok = {
+        potential = {
+            tag = RUS
+            owns = 1085
+            owns = 1084
+            owns = 2617
+            owns = 1083
+            owns = 1082
+            owns = 1081
+            owns = 2697
+            NOT = { has_global_flag = russian_vladivostok }
+        }
+
+        allow = { state_n_government = 1 }
+
+        effect = {
+		RUS = { all_core = { remove_core = AIN } }
+            random_owned = { limit = { province_id = 1082 NOT = { life_rating = 39 } } life_rating = 8 }
+            1081 = {
+                change_province_name = "Albazino"
+                add_core = RUS
+                remove_core = CHI
+                remove_core = MCK
+                remove_core = QNG
+				remove_core = MCH
+            }
+            2697 = {
+                change_province_name = "Zeya"
+                add_core = RUS
+                remove_core = CHI
+                remove_core = MCK
+                remove_core = QNG
+				remove_core = MCH
+            }
+            1085 = {
+                change_province_name = "Blagoveshchensk"
+                add_core = RUS
+                remove_core = CHI
+                remove_core = MCK
+                remove_core = QNG
+				remove_core = MCH
+            }
+            1084 = {
+                change_province_name = "Nikolayevsk-na-amure"
+                add_core = RUS
+                remove_core = CHI
+                remove_core = MCK
+                remove_core = QNG
+				remove_core = MCH
+            }
+            1083 = {
+                change_province_name = "Khabarovsk"
+                add_core = RUS
+                remove_core = CHI
+                remove_core = MCK
+                remove_core = QNG
+				remove_core = MCH
+            }
+            2617 = {
+                change_province_name = "Pashkovo"
+                add_core = RUS
+                remove_core = CHI
+                remove_core = MCK
+                remove_core = QNG
+				remove_core = MCH
+            }
+            1082 = {
+                change_province_name = "Vladivostok"
+                add_core = RUS
+                remove_core = CHI
+                remove_core = MCK
+				remove_core = MCH
+                remove_core = QNG
+            }
+            1082 = { state_scope = { change_region_name = "Primorye" } }
+            1080 = { state_scope = { change_region_name = "Amur" } }
+            prestige = 5
+            set_global_flag = russian_vladivostok
+        }
+    }
 }
