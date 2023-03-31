@@ -584,8 +584,13 @@
     farmers = {
         culture = japanese
         religion = mahayana
-        size = 167575
+        size = 147575
     }
+	craftsmen = {
+		culture = japanese
+		religion = mahayana
+		size = 20000
+	}
 
     aristocrats = {
         culture = japanese
