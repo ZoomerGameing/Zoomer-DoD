@@ -51,9 +51,6 @@ country_event = {
 		RUS_1071 = { add_core = RUS } 
 		RUS_2653 = { add_core = RUS }
 		JAP_1086 = { add_core = RUS }
-		NA_10 = { add_core = RUS }
-		NA_11 = { add_core = RUS }
-		NA_17 = { add_core = RUS }
         ai_chance = { 
             factor = 33
         }

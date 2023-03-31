@@ -296,4 +296,20 @@ political_decisions = {
 			add_accepted_culture = siberian
 		}
 	}
+	core_alaska = {
+		potential = {
+			tag = RUS
+			has_country_flag = sea_to_sea_focus
+		}
+		allow = {
+			owns = 4
+			owns = 3
+			owns = 2599
+		}
+		effect = {
+			NA_10 = { add_core = RUS }
+			NA_11 = { add_core = RUS }
+			NA_17 = { add_core = RUS }
+		}
+	}
 }
