@@ -61,3 +61,15 @@ Update 1.2
 - readded Batvian immigration modifer that was unused
 
 - Russia northern and eastern path were merged, Russia can no longer get cores on siberia if western or southern path is taken, northern path no longer gets memel core
+
+Update 1.2.1
+
+- Russia can renamed and colonise outer Manchuria 
+
+- Russia can core Alaska if owned
+
+- Southern Path no longer gets Georgian or Astrakhani cultures accepted
+
+- added a luxury clothes factory to japan to prevent mass unemployment in silk provinces
+
+- fixed Gran Columbia's decision to remove Incan cores on itself
