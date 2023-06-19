@@ -45,3 +45,38 @@ country_event = {
 		}
 	}
 }
+
+country_event = {
+	id = 800010
+	title = "EVTNAME800010"
+	desc = "EVTDESC800010"
+	fire_only_once = yes
+	
+	trigger = {
+	tag = SCA
+	}
+	mean_time_to_happen = {
+		days = 3
+	}
+	option = {
+		name = "EVTOPTA800010"
+		activate_technology = ideological_thought
+	}
+}
+country_event = {
+	id = 800011
+	title = "EVTNAME800011"
+	desc = "EVTDESC800011"
+	fire_only_once = yes
+	
+	trigger = {
+	tag = DUA
+	}
+	mean_time_to_happen = {
+		days = 3
+	}
+	option = {
+		name = "EVTOPTA800011"
+		activate_technology = ideological_thought
+	}
+}
