@@ -5,6 +5,8 @@ show_host_decisions_title;Show Host Decisions;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;
 show_host_decisions_desc;Click to show all host decisions.;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;
 hide_host_decisions_title;Hide Host Decisions;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;
 hide_host_decisions_desc;Click to hide all host decisions.;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;
+disable_crisis_title;Disable Crisies;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;
+disable_crisis_desc;Permanently disable the crisis mechanic.;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;
 ally_all_countries_title;Ally All Countries;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;
 ally_all_countries_desc;Click to ally all countries in the game.;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;
 unally_all_countries_title;Unally All Countries;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;
