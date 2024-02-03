@@ -50,6 +50,7 @@ upper_house = {
 }
 
 # Technologies
+enlightenment_thought = 1
 post_napoleonic_thought = 1
 flintlock_rifles = 1
 bronze_muzzle_loaded_artillery = 1
@@ -70,7 +71,8 @@ guild_based_production = 1
 piston_steam_engine = 1
 mechanized_mining = 1
 basic_chemistry = 1
-
+private_banks = 1
+mechanical_production = 1
 # Starting Consciousness
 consciousness = 3
 nonstate_consciousness = 1
