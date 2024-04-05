@@ -118,9 +118,6 @@ political_decisions = {
 			allow = {
 				HBE = { exists = no }
 				NOT = { war = yes }
-				is_greater_power = yes
-       		 government = absolute_monarchy
-		
 			}
 		
 			effect = {
