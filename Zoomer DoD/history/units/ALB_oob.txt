@@ -1,9 +1,9 @@
 leader = {
-	name = "Gjon Buzuku"
+	name = "Skanderbeg"
 	type = land
 	date = 1836.1.1
-	personality = cool_minded
-	background = ethnic
+	personality = coolminded
+	background = expert_raider 
 }
 
 leader = {
