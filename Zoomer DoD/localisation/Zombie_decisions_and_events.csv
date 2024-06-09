@@ -55,3 +55,11 @@ ally_all_players_title;Ally All Player Countries in the Game;;;;;;;;;;;;;x
 ally_all_players_desc;Does what it says.;;;;;;;;;;;;;x
 end_all_wars_title;Ends All Wars Against You;;;;;;;;;;;;;x
 end_all_wars_desc;Does what it says.;;;;;;;;;;;;;x
+brg_dominate_france_title;Dominate France;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+brg_dominate_france_desc;The Plantagenet Kingdom of France has long been a thorn in the side of our prosperous state. With our total domination of French lands, we must secure our claim so that none can rule France but Burgundy. This decision is exclusive with Occitania decision.;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+brg_dominate_occitania_title;Revive the Kingdom of Arles;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+brg_dominate_occitania_desc;With our recent conquests in Occitania, we now have control over the ancient lands of the Burgundians, under the fallen Kingdom of Arles. By reclaiming the title of the King of Arles, we can lay claim to the lands of Occitania. This decision is exclusive with France decision.;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+DUA_end_France_title;The French Dream;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+DUA_end_France_desc;With our successful reign of France, the echoes of revolt have faded and the French truly accept our rule. There is no longer threat of a French revolt, for we are ourselves France.;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+DUA_end_England_title;The English Dream;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+DUA_end_England_desc;With our successful reign of England, the echoes of revolt have faded and the English truly accept our rule. There is no longer threat of a English revolt, for we are ourselves England.;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;

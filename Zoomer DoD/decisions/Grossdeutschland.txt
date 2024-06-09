@@ -412,6 +412,8 @@ form_elbian_confederation = {
 	}
 	
 	allow = { 
+			owns = 575
+			owns = 570
 	NOT = { accepted_culture = rheinish }
 	any_owned_province = { is_core = RHI }
 	}
@@ -419,6 +421,21 @@ form_elbian_confederation = {
 	effect = { 
 	set_country_flag = rheinish_acc
 	add_accepted_culture = rheinish 
+	any_country = {
+				limit = {
+					primary_culture = rheinish
+					NOT = { tag = SGF }
+					NOT = { tag = GER }
+					OR = {
+					   in_sphere = THIS
+					   vassal_of = THIS
+					}
+					NOT = {
+						tag = THIS
+					}
+				}
+				annex_to = THIS
+			}
 	   }
 	
     }
@@ -430,13 +447,30 @@ form_elbian_confederation = {
 	NOT = { accepted_culture = rheinish }
 	}
 	
-	allow = { 
+	allow = { 	
+			owns = 575
+			owns = 570
 	any_owned_province = { is_core = RHI }
 	}
 	
 	effect = { 
 	set_country_flag = rheinish_acc
 	add_accepted_culture = rheinish 
+	any_country = {
+				limit = {
+					primary_culture = rheinish
+					NOT = { tag = SGF }
+					NOT = { tag = GER }
+					OR = {
+					   in_sphere = THIS
+					   vassal_of = THIS
+					}
+					NOT = {
+						tag = THIS
+					}
+				}
+				annex_to = THIS
+			}
 	   }
 	
     }

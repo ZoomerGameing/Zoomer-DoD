@@ -34,12 +34,6 @@ country_event = {
 			}
 			militancy = -4
 		}
-		random_owned = {
-				limit = {
-					FRA = { exists = no }
-				}
-				FRA = { all_core = { remove_core = FRA } }
-			}
 		ai_chance = { 
 		factor = 50
 		}
@@ -58,9 +52,6 @@ country_event = {
 				}
 			}
 			militancy = -4
-		}
-		random_owned = {
-			ENL = { all_core = { remove_core = ENL } }
 		}
 		ai_chance = { 
 			factor = 20
