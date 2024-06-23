@@ -605,7 +605,7 @@ political_decisions = {
 	NOT = { has_country_flag = kaiga }
 	}
 	allow = { 
-	KKN = {
+	3 = {
 					owner = {
 						OR = {
 							tag = THIS
