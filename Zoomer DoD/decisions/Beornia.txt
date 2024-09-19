@@ -116,6 +116,7 @@ political_decisions = {
 			}
 		
 			allow = {
+				state_n_government = 1
 				HBE = { exists = no }
 				NOT = { war = yes }
 			}
@@ -134,7 +135,7 @@ political_decisions = {
 				set_country_flag = holy_britannia
 			}
 			ai_will_do = {
-				factor = 1
+				factor = 0
 			}
 	}
 }
