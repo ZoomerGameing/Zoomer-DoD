@@ -62,64 +62,64 @@ leader = {
 	name = "Lars Lund"
 	type = land
 	date = 1836.1.1
-	personality = impulsive
-	background = old_school
+	personality = defence_1.1
+	background = attack_1.1
 }
 
 leader = {
 	name = "Olaf Grunwald"
 	type = land
 	date = 1836.1.1
-	personality = reserved
-	background = war_college
+	personality = defence_1.1
+	background = attack_1.1
 }
 
 leader = {
 	name = "Ulf Lindhart"
 	type = land
 	date = 1836.1.1
-	personality = careful
-	background = engineer
+	personality = defence_1.1
+	background = attack_1.1
 }
 
 leader = {
 	name = "Viggo Stensgaard"
 	type = land
 	date = 1836.1.1
-	personality = openminded
-	background = colonial_recruit
+	personality = defence_1.1
+	background = attack_1.1
 }
 
 leader = {
 	name = "Ulrich Thorsen"
 	type = land
 	date = 1836.1.1
-	personality = romantic
-	background = professor
+	personality = defence_1.1
+	background = attack_1.1
 }
 
 leader = {
 	name = "Erik Blom"
 	type = sea
 	date = 1836.1.1
-	personality = lackluster
-	background = powerful_friends
+	personality = defence_1.1
+	background = attack_1.1
 }
 
 leader = {
 	name = "Christian Knuth"
 	type = sea
 	date = 1836.1.1
-	personality = genius
-	background = uncommonly_young
+	personality = defence_1.1
+	background = attack_2.1
 }
 
 leader = {
 	name = "Vilhelm Ingels"
 	type = sea
 	date = 1836.1.1
-	personality = inept
-	background = pawn
+	personality = defence_1.1
+	background = attack_1.1
 }
 
 army = {

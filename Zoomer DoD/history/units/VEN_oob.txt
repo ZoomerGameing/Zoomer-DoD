@@ -2,16 +2,16 @@ leader = {
 	name = "Marco Monteverdi"
 	type = land
 	date = 1836.1.1
-	personality = modest
-	background = elder_statesman
+	personality = defence_1.1
+	background = attack_2.1
 }
 
 leader = {
 	name = "Pietro Vivaldi"
 	type = sea
 	date = 1836.1.1
-	personality = independent
-	background = gambler
+	personality = defence_1.1
+	background = attack_1.1
 }
 
 army = {

@@ -17,32 +17,32 @@ leader = {
 	name = "Juan Manuel Santos"
 	type = land
 	date = 1836.1.1
-	personality = madman
-	background = ambitious_careerist
+	personality = defence_1.1
+	background = attack_1.1
 }
 
 leader = {
 	name = "Angelino Garzón"
 	type = land
 	date = 1836.1.1
-	personality = wretched
-	background = architect
+	personality = defence_1.1
+	background = attack_1.1
 }
 
 leader = {
 	name = "Francisco de Miranda"
 	type = land
 	date = 1836.1.1
-	personality = unforgiving
-	background = armchair_general
+	personality = defence_1.1
+	background = attack_1.1
 }
 
 leader = {
 	name = "Alonso de Lugo"
 	type = sea
 	date = 1836.1.1
-	personality = pisspoor
-	background = drillmaster
+	personality = defence_1.1
+	background = attack_1.1
 }
 
 army = {

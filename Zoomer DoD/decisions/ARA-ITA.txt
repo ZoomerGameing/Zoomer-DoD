@@ -1,9 +1,11 @@
 political_decisions = {
 	merge_the_crowns_ari = {
+		picture = "italian_islands"
 		potential = {			
 			tag = ARA	
 			NOT = { exists = ARI }
 			NOT = { has_country_flag = abandon_italy }
+			NOT = { has_country_flag = dominated_iberia_aragon }
 		}
 		allow = {
 			NOT = { war = yes }
@@ -249,7 +251,7 @@ political_decisions = {
 		
 		allow = {
 			all_core = { owned_by = THIS }
-			rank = 4
+			rank = 6
 			revolution_n_counterrevolution = 1
 		}
 		
@@ -339,9 +341,11 @@ political_decisions = {
 	}
 	
 	abandon_italy = {
+		picture = "aragonese_two_sicilies"
 		potential = {
 			tag = ARA
 			NOT = { has_country_flag = abandon_italy }
+			NOT = { has_country_flag = dominated_iberia_aragon }
 		}
 		allow = {
 			NOT = {	owns = 754 }
@@ -361,6 +365,118 @@ political_decisions = {
 		remove_accepted_culture = south_italian
 		add_accepted_culture = castilian
 				set_country_flag = abandon_italy
+		}
+	}
+	
+	secure_iberian_foothold = {
+		picture = "aragon_map"
+		potential = {
+			tag = ARA
+			has_country_flag = abandon_italy
+			NOT = { has_country_flag = secured_iberian_foothold }
+			NOT = { has_country_flag = expanded_latin_empire }
+			NOT = { has_country_flag = dominated_iberia_aragon }
+		}
+		allow = {
+			all_core = { owned_by = THIS }
+			owns = 487
+			owns = 506
+			owns = 513
+			owns = 477
+		}
+		effect = {
+			SPA = {
+				all_core = {
+					add_core = THIS
+				}
+			}
+			random_country = { 
+				limit = {
+					tag = NAV
+					vassal_of = THIS
+				}
+				annex_to = THIS
+			}
+			add_accepted_culture = castilian
+			add_accepted_culture = portuguese
+			add_accepted_culture = basque
+			set_country_flag = secured_iberian_foothold
+		}
+	}
+	
+	dominate_iberia_aragon = {
+		picture = "aragon_map"
+		potential = {
+			tag = ARA
+			NOT = { has_country_flag = secured_iberian_foothold }
+			NOT = { has_country_flag = abandon_italy }
+			NOT = { has_country_flag = dominated_iberia_aragon }
+		}
+		allow = {
+			all_core = { owned_by = THIS }
+			owns = 487
+			owns = 506
+			owns = 509
+			owns = 513
+			owns = 477
+		}
+		effect = {
+			SPA = {
+				all_core = {
+					limit = { NOT = {is_core = POR }}
+					limit = { NOT = {is_core = GAL }}
+					add_core = THIS
+				}
+			}
+			add_accepted_culture = castilian
+			random_country = { 
+				limit = {
+					tag = NAV
+					vassal_of = THIS
+				}
+				annex_to = THIS
+				add_accepted_culture = basque
+			}
+			set_country_flag = dominated_iberia_aragon
+		}
+	}
+	
+	expand_latin_empire = {
+		picture = "aragon_map"
+		potential = {
+			tag = ARI
+			has_country_flag = latin_empire
+			NOT = { has_country_flag = secured_iberian_foothold }
+			NOT = { has_country_flag = expanded_latin_empire }
+			NOT = { has_country_flag = dominated_iberia_aragon }
+		}
+		allow = {
+			all_core = { owned_by = THIS }
+			owns = 487
+			owns = 506
+			owns = 509
+			owns = 513
+			owns = 477
+			owns = 521
+		}
+		effect = {
+			SPA = {
+				all_core = {
+					limit = { NOT = {is_core = POR }}
+					limit = { NOT = {is_core = GAL }}
+					add_core = THIS
+				}
+			}
+			random_country = { 
+				limit = {
+					tag = NAV
+					vassal_of = THIS
+				}
+				annex_to = THIS
+				add_accepted_culture = basque
+			}
+			add_accepted_culture = castilian
+			set_country_flag = expanded_latin_empire
 		}
 	}
 }

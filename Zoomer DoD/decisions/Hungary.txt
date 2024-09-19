@@ -219,4 +219,28 @@ political_decisions = {
 			badboy = 15
 		}
 	}
+	
+	accept_romanian_hun = {
+	
+		picture = "hungary"
+		
+		potential = {
+			tag = HUN
+			NOT = { has_country_flag = accepted_romanian_hun }
+			NOT = { accepted_culture = romanian }
+		}
+		allow = {
+			phenomenology_n_hermeneutic = 1
+			AND = {
+				NOT = { debt_law = serfdom }
+				NOT = { debt_law = peonage }
+				citizens_rights = all_voting_pops
+			}
+		}
+		effect = {
+			prestige = -10
+			set_country_flag = accepted_romanian_hun
+			add_accepted_culture = romanian
+		}
+	}
 }

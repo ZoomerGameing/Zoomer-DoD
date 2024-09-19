@@ -83,48 +83,48 @@ leader = {
 	name = "Tristan Duras"
 	type = land
 	date = 1836.1.1
-	personality = secretive
-	background = eccentric_genius
+	personality = defence_1.1
+	background = attack_1.1
 }
 
 leader = {
 	name = "Guillame de Anvers"
 	type = land
 	date = 1836.1.1
-	personality = glory_hound
-	background = aristocrat
+	personality = defence_1.1
+	background = attack_1.1
 }
 
 leader = {
 	name = "Jean Ferro"
 	type = land
 	date = 1836.1.1
-	personality = shirker
-	background = sinner
+	personality = defence_1.1
+	background = attack_1.1
 }
 
 leader = {
 	name = "Paul Laforgue"
 	type = land
 	date = 1836.1.1
-	personality = daring
-	background = unqualified
+	personality = defence_1.1
+	background = attack_3.1
 }
 
 leader = {
 	name = "Hector Millet"
 	type = land
 	date = 1836.1.1
-	personality = dauntless
-	background = school_of_the_bayonet
+	personality = defence_1.1
+	background = attack_2.1
 }
 
 leader = {
 	name = "Georges Roussel"
 	type = land
 	date = 1836.1.1
-	personality = scared
-	background = unqualified
+	personality = defence_1.1
+	background = attack_1.1
 }
 
 
@@ -132,8 +132,8 @@ leader = {
 	name = "Antoine Villon"
 	type = sea
 	date = 1836.1.1
-	personality = expert
-	background = cartographer
+	personality = defence_1.1
+	background = attack_1.1
 }
 
 army = {

@@ -72,6 +72,8 @@ political_decisions = {
 	}
 	
 	allow = { 
+		owns = 575
+		owns = 570
 	GER = { 
 		all_core = {
 						OR = {
@@ -323,7 +325,6 @@ form_elbian_confederation = {
 			PRU_581 = { add_core = CAE }  #Westfalen
 			HES_566 = { add_core = CAE }	#Hessen
 			PRU_575 = { add_core = CAE }	#Nordrhine
-			PRU_572 = { add_core = CAE }	#Rhineland
 			HES_2560 = { add_core = CAE }	#Palatinate
 			any_country = {
 				limit = {
@@ -456,6 +457,7 @@ form_elbian_confederation = {
 	effect = { 
 	set_country_flag = rheinish_acc
 	add_accepted_culture = rheinish 
+	PRU_572 = { add_core = CAE }	#Rhineland
 	any_country = {
 				limit = {
 					primary_culture = rheinish

@@ -2,40 +2,40 @@ leader = {
 	name = "Hong Taiji"
 	type = land
 	date = 1836.1.1
-	personality = wrathful
-	background = natural_born_leader
+	personality = defence_1.1
+	background = attack_3.1
 }
 
 leader = {
 	name = "Wu Sangui"
 	type = land
 	date = 1836.1.1
-	personality = reserved
-	background = yesman
+	personality = defence_2.1
+	background = attack_1.1
 }
 
 leader = {
 	name = "Mu Ying"
 	type = land
 	date = 1836.1.1
-	personality = resourceful
-	background = inventor
+	personality = defence_1.1
+	background = attack_1.1
 }
 
 leader = {
 	name = "Shang Kexi"
 	type = land
 	date = 1836.1.1
-	personality = meticulous
-	background = brownnoser
+	personality = defence_1.1
+	background = attack_1.1
 }
 
 leader = {
 	name = "Geng Jingzhong"
 	type = sea
 	date = 1836.1.1
-	personality = impulsive
-	background = corrupt
+	personality = defence_1.1
+	background = attack_1.1
 }
 
 army = {

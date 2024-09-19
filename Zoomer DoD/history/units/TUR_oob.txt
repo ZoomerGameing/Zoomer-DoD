@@ -39,8 +39,8 @@ leader = {
 	name = "Nazan Girik"
 	type = land
 	date = 1836.1.1
-	personality = vicious
-	background = warmonger
+	personality = defence_1.1
+	background = attack_2.1
 }
 
 leader = {
@@ -71,24 +71,24 @@ leader = {
 	name = "Aziz Ibn Isa"
 	type = land
 	date = 1836.1.1
-	personality = skilled
-	background = ethnic
+	personality = defence_1.1
+	background = attack_1.1
 }
 
 leader = {
 	name = "Abdel el-Akkad"
 	type = land
 	date = 1836.1.1
-	personality = bastard
-	background = mercenary
+	personality = defence_minus_1.1
+	background = attack_2.1
 }
 
 leader = {
 	name = "Piri Barbarossa"
 	type = sea
 	date = 1836.1.1
-	personality = ruthless
-	background = expert_raider
+	personality = defence_1.1
+	background = attack_2.1
 }
 
 army = {
