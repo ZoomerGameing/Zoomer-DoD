@@ -69,7 +69,9 @@ dominate_iberia_aragon_title;Dominate Iberia;;;;;;;;;x;;;;
 dominate_iberia_aragon_desc;The Castillian state has been crushed, leaving none to question Aragonese dominion over Iberia. Although the Portuguese fiercely resist joining our empire, the Castillians are willing to accept our conquests. A truly glorious day for Aragon. §R Taking this decision will BLOCK the formation of Aragon-Italy;;;;;;;;;x;;;;
 secure_iberian_foothold_title;Secure Foothold in Iberia;;;;;;;;;;;;;x
 secure_iberian_foothold_desc;Wih our humiliating defeat in Southern Italy, we have finally brought back honor to Aragon by crushing the perfidious Castillians and securing our foothold in Iberia. With the Portuguese willing to accept our rule, it seems Aragon will be the master of Iberia.;;;;;;;;;;;;;x
-fate_of_dual_monarchy_title;Fate of the Dual Monarchy;;;;;;;;;;;;;x
+fate_of_dual_monarchy_title;Fate of the Dual Monarchy;;;;;;;;;;;;;x 
 fate_of_dual_monarchy_desc;The time has come to decide what fate our nation should take, and speak on the Anglois dilemma. §R This decision will be forced onto you after 1840.;;;;;;;;;;;;;x
 accept_romanian_hun_title;Grant Romanians Rights;;;;;;;;;;;;;x
 accept_romanian_hun_desc;With the the equalizing reforms our nation has recently undertaken, a large amount of Romanians within our borders and beyond have begun to see Hungary as a secure place for Romanians reeling under foreign domination. By granting these citizens more rights, they will likely see themselves as citizens of Hungary, not Romania or any other foreign power.;;;;;;;;;;;;;x
+starting_leadership_title;Starting Leadership;;;;;;;;;;;;;x
+starting_leadership_desc;Gives 30 leadership points.;;;;;;;;;;;;;x
