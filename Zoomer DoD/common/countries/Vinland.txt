@@ -30,6 +30,20 @@ party = {
 }
 
 party = {
+	name = "Harald's Triumph"
+	start_date = 1830.1.1
+	end_date = 1990.1.1
+
+	ideology = conservative
+
+	economic_policy = state_capitalism
+	trade_policy = protectionism
+	religious_policy = pluralism
+	citizenship_policy = limited_citizenship
+	war_policy = pro_military
+}
+
+party = {
 	name = "AAA_liberal_2" # Parliamentarists
 	start_date = 1830.1.1
 	end_date = 2000.1.1

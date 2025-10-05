@@ -252,7 +252,7 @@ political_decisions = {
 		}
 		effect = {
 			set_country_flag = lead
-			leadership = 30
+			leadership = 40
 		}
 		ai_will_do = {
 			factor = 1

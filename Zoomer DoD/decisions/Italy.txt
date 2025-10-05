@@ -8,6 +8,7 @@ political_decisions = {
 			}
 			NOT = {
 				exists = ITA
+				tag = FRT
 			}
 		}
 	
@@ -139,6 +140,8 @@ political_decisions = {
 	
 	venetians_culture = { 
 		potential = { 
+			NOT = { tag = FRT }
+			NOT = { has_country_flag = valois_italy }
 			OR = { 
 				tag = ITA
 				AND = { 

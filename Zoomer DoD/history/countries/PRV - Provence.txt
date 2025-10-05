@@ -1,6 +1,5 @@
 capital = 470
 primary_culture = provencal
-culture = french
 culture = north_italian
 religion = catholic
 government = prussian_constitutionalism

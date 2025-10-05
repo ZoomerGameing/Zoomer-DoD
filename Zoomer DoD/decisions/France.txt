@@ -1,4 +1,38 @@
 political_decisions = {
+	english_path = {
+		potential = {
+			tag = DUA 
+			has_country_flag = english_integration
+			NOT = {has_country_flag = french_path}
+			NOT = {has_country_flag = english_path}
+		}
+		allow = {
+			year = 1840
+			ideological_thought = 1
+		}
+		effect = {
+			set_country_flag = english_path
+			add_accepted_culture = english
+		}
+	}
+	french_path = {
+		potential = {
+			tag = DUA 
+			NOT = {has_country_flag = english_path}
+			has_country_flag = french_integration
+			NOT = {has_country_flag = french_path}
+		}
+		allow = {
+			year = 1840
+			ideological_thought = 1
+		}
+		effect = {
+			set_country_flag = french_path
+			add_accepted_culture = french
+		}
+	
+	}
+	
 	annex_OCC = {
 	picture = Occitania
 		potential = { 

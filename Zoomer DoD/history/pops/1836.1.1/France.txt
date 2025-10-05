@@ -3500,24 +3500,6 @@
 		religion = protestant
 		size = 3000
 	}
-
-	soldiers = {
-		culture = provencal
-		religion = protestant
-		size = 3000
-	}
-	
-	soldiers = {
-		culture = provencal
-		religion = protestant
-		size = 3000
-	}
-	
-	soldiers = {
-		culture = provencal
-		religion = protestant
-		size = 3000
-	}
 	
 	soldiers = {
 		culture = provencal
@@ -3551,6 +3533,12 @@
 		size = 8000
 	}
 
+	soldiers = {
+		culture = provencal
+		religion = protestant
+		size = 3000
+	}
+	
 	farmers = {
 		culture = provencal
 		religion = protestant
@@ -3603,6 +3591,18 @@
 		size = 13000
 	}
 
+	soldiers = {
+		culture = provencal
+		religion = protestant
+		size = 3000
+	}
+	
+	soldiers = {
+		culture = provencal
+		religion = protestant
+		size = 3000
+	}
+	
 	farmers = {
 		culture = provencal
 		religion = protestant

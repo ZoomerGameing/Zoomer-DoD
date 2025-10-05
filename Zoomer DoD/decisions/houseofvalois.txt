@@ -8,7 +8,11 @@ political_decisions = {
 			tag = PRV
 		}	
 		allow = {
-			NOT = { part_of_sphere = yes }
+			ideological_thought = 1
+			OR = {
+				NOT = { part_of_sphere = yes }
+				NOT = { in_sphere = ARA }
+			}
 			NOT = { war = yes }
 			744 = {
 				owned_by = THIS	
@@ -52,7 +56,6 @@ political_decisions = {
 				annex_to = THIS
 			}
 			change_tag = ITA
-			add_accepted_culture = south_italian
 			add_accepted_culture = north_italian
 			capital = 749
 			set_country_flag = valois_italy
@@ -62,6 +65,71 @@ political_decisions = {
 		}
 	}
 
+	extend_south_italian_claims = { 
+
+		potential = { 
+			tag = ITA 
+			has_country_flag = valois_italy		
+			NOT = { has_country_flag = southern_italy_claimed }
+		}
+
+		allow = {
+			754 = { owned_by = THIS }
+			757 = { owned_by = THIS }
+			state_n_government = 1
+		}
+
+		effect = { 
+		prestige = 5
+		add_accepted_culture = south_italian
+		set_country_flag = southern_italy_claimed
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	#eat_tuscany_provence = { 
+	#
+	#	potential = { 
+	#		tag = PRV 
+	#		prestige = 999
+	#		TUS = { exists = yes }
+	#	}
+	#
+	#	allow = {
+	#		prestige = 999
+	#	}
+	#
+	#	effect = { 
+	#	inherit = TUS
+	#	}
+	#	ai_will_do = {
+	#		factor = 1
+	#	}
+	#}
+	#
+	#form_italy_provence = { 
+	#
+	#	potential = { 
+	#		tag = PRV 
+	#		prestige = 999
+	#		TUS = { exists = yes }
+	#	}
+	#
+	#	allow = {
+	#		prestige = 999
+	#	}
+	#
+	#	effect = { 
+	#	change_tag = ITA
+	#	set_country_flag = valois_italy
+	#	}
+	#	ai_will_do = {
+	#		factor = 1
+	#	}
+	#}
+	
 	reclaim_occitania = { 
 
 		potential = { 
@@ -71,11 +139,17 @@ political_decisions = {
 		}
 
 		allow = {
-			ITA = { 
-				all_core = {
-					owned_by = THIS
-					}
-				}
+			owns = 470
+			owns = 465
+			owns = 451
+			owns = 754
+			owns = 757
+			owns = 749
+			owns = 726
+			owns = 720
+			owns = 739
+			owns = 742
+			owns = 724
 			nationalism_n_imperialism = 1
 		}
 
@@ -109,7 +183,12 @@ political_decisions = {
 					owned_by = THIS
 					}
 				}
-			nationalism_n_imperialism = 1
+			OCC = { 
+				all_core = {
+					owned_by = THIS
+					}
+				}
+			revolution_n_counterrevolution = 1
 		}
 
 		effect = { 
@@ -141,6 +220,7 @@ political_decisions = {
 			has_country_flag = renew_war 
 		}
 	allow = {
+			revolution_n_counterrevolution = 1
 			ITA = { 
 				all_core = {
 					owned_by = THIS
@@ -150,6 +230,7 @@ political_decisions = {
 
 	effect = { 
 	change_tag = FRT 
+	add_accepted_culture = french
 	FRA_428 = { add_core = THIS }
 	GNV = { all_core = { add_core = THIS } }
 	any_owned = { 
@@ -345,16 +426,20 @@ political_decisions = {
 	potential = { 
 	tag = PRV 
 	LUC = { exists = yes }
-	NOT = { war = yes }
 	NOT = { has_country_flag = lucca_submission }
-	owns = 744	
 	}
 		
 	allow = { 
-		LUC = {
-		NOT = { vassal_of = THIS }
-			}
+		LUC = { exists = yes }
+		OR = {
+			war = no
+			NOT = { war_with = LUC }
 		}
+		owns = 744	
+		LUC = {
+			NOT = { vassal_of = THIS }
+			}
+	}
 		
 	effect = {
 		LUC = { country_event = 110603 }

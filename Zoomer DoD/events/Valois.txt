@@ -68,15 +68,19 @@ country_event = {
 					tag = SAR
 					tag = LOM
 					tag = PAP
+					tag = MOD
+					tag = FRR
 				}
 			}
 			country_event = 110604
 		}
 		LOM = { country_event = 110605 }
-		PAP = { country_event = 110606 }
 		PRV = { country_event = 110607 }
+		PAP = { country_event = 110606 }
+		MOD = { country_event = 110606 }
+		FRR = { country_event = 110606 }
 		ai_chance = {
-			factor = 90
+			factor = 100
 		}
 	}
 
@@ -84,7 +88,7 @@ country_event = {
 		name = "110603.B"
 		PRV = { country_event = 110608 }
 		ai_chance = {
-			factor = 10
+			factor = 0
 		}
 	}
 }
@@ -100,7 +104,7 @@ country_event = {
 		name = "110604.A"
 		set_country_flag = alliance_valois
 		ai_chance = {
-			factor = 90
+			factor = 100
 			modifier = {
 				factor = 0
 				vassal_of = PRV
@@ -114,7 +118,11 @@ country_event = {
 		relation = { who = LUC value = -150 }
 		relation = { who = PRV value = 100 }
 		ai_chance = {
-			factor = 10
+			factor = 0
+			modifier = {
+				factor = 100
+				vassal_of = PRV
+			}
 		}
 	}
 }
@@ -130,7 +138,7 @@ country_event = {
 		name = "110605.A"
 		set_country_flag = alliance_valois
 		ai_chance = {
-			factor = 65
+			factor = 100
 			modifier = {
 				factor = 0
 				vassal_of = PRV
@@ -144,7 +152,11 @@ country_event = {
 		relation = { who = LUC value = -150 }
 		relation = { who = PRV value = 50 }
 		ai_chance = {
-			factor = 35
+			factor = 0
+			modifier = {
+				factor = 100
+				vassal_of = PRV
+			}
 		}
 	}
 }
@@ -157,7 +169,7 @@ country_event = {
 	is_triggered_only = yes
 
 	option = {
-		name = "110606.A"
+		name = "These dirty Provencals will be put down."
 		set_country_flag = alliance_valois_p
 		ai_chance = {
 			factor = 100
@@ -174,7 +186,11 @@ country_event = {
 		relation = { who = LUC value = -150 }
 		relation = { who = PRV value = 200 }
 		ai_chance = {
-			factor = 10
+			factor = 0
+			modifier = {
+				factor = 100
+				vassal_of = PRV
+			}
 		}
 	}
 }
@@ -298,6 +314,9 @@ country_event = {
 				casus_belli = free_peoples
 				state_province_id = 744
 				country = TUS
+			}
+			defender_goal =  {
+				casus_belli = conquest
 			}
 		}
 	}

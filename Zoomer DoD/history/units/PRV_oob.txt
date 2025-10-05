@@ -19,10 +19,25 @@ army = {
 		type = infantry
 		home = 467
 	}
+	regiment = {
+		name= "2e Brigade"
+		type = infantry
+		home = 468
+	}
 	regiment = { 
 		name= "Brigade d'Artillerie"
 		type = artillery
-		home = 467
+		home = 470
+	}
+	regiment = { 
+		name= "Brigade d'Artillerie"
+		type = artillery
+		home = 470
+	}
+	regiment = { 
+		name= "Brigade d'Hussars"
+		type = hussar
+		home = 468
 	}
 }
 

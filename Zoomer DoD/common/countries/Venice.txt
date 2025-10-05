@@ -44,6 +44,20 @@ party = {
 }
 
 party = {
+	name = "Dandolo's Patriots"
+	start_date = 1830.1.1
+	end_date = 1990.1.1
+
+	ideology = conservative
+
+	economic_policy = state_capitalism
+	trade_policy = protectionism
+	religious_policy = pluralism
+	citizenship_policy = limited_citizenship
+	war_policy = pro_military
+}
+
+party = {
 	name = "VEN_liberal_1"
 	start_date = 1830.1.1
 	end_date = 1848.1.1
