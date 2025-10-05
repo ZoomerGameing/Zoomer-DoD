@@ -230,7 +230,7 @@ political_decisions = {
 			NOT = { accepted_culture = romanian }
 		}
 		allow = {
-			phenomenology_n_hermeneutic = 1
+			revolution_n_counterrevolution = 1
 			AND = {
 				NOT = { debt_law = serfdom }
 				NOT = { debt_law = peonage }
